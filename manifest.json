@@ -3,5 +3,8 @@
     "name": "Wikipedia Search",
     "version": "1.0",
     "permissions": ["contextMenus"],
-    "description": "Search highlighted text on Wikipedia"
+    "description": "Search highlighted text on Wikipedia",
+    "background": {
+        "service_worker": "background.js"
+      }
 }
