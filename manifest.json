@@ -6,5 +6,10 @@
     "description": "Search highlighted text on Wikipedia",
     "background": {
         "service_worker": "background.js"
+      },
+      "action": {
+        "default_icon": {
+            "128": "icon128.png"
+        }
       }
 }

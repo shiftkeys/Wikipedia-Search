@@ -1,7 +1,7 @@
 chrome.runtime.onInstalled.addListener(() => {
     chrome.contextMenus.create({
         id: "customSelection",
-        title: "Search Wikipedia for %s",
+        title: "Search Wikipedia for '%s'",
         contexts: ["selection"]
     });
 });
